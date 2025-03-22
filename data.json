@@ -1,0 +1,75 @@
+{
+    "productos": {
+        "1": {
+            "nombre": "pa",
+            "categoria": "pa",
+            "descripcion": "pa",
+            "proveedor": "pa",
+            "cantidad": 1,
+            "precio_venta": 400.0,
+            "precio_compra": 200.0
+        },
+        "2": {
+            "nombre": "pe",
+            "categoria": "pe",
+            "descripcion": "pe",
+            "proveedor": "pe",
+            "cantidad": 2,
+            "precio_venta": 5000.0,
+            "precio_compra": 2000.0
+        },
+        "3": {
+            "nombre": "po",
+            "categoria": "po",
+            "descripcion": "p",
+            "proveedor": "po",
+            "cantidad": 22,
+            "precio_venta": 600.0,
+            "precio_compra": 200.0
+        }
+    },
+    "pedidos": {
+        "1234": {
+            "codigo_cliente": "1097",
+            "fecha": "10-10-10",
+            "detalles": [
+                {
+                    "codigo_producto": "1",
+                    "cantidad": 8,
+                    "precio_unitario": 400.0,
+                    "linea": 1
+                }
+            ]
+        },
+        "2": {
+            "codigo_cliente": "12345",
+            "fecha": "20-02-20",
+            "detalles": [
+                {
+                    "codigo_producto": "2",
+                    "cantidad": 28,
+                    "precio_unitario": 5000.0,
+                    "linea": 1
+                },
+                {
+                    "codigo_producto": "1",
+                    "cantidad": 1,
+                    "precio_unitario": 400.0,
+                    "linea": 2
+                }
+            ]
+        },
+        "3": {
+            "codigo_cliente": "15432",
+            "fecha": "01010101",
+            "detalles": [
+                {
+                    "codigo_producto": "3",
+                    "cantidad": 28,
+                    "precio_unitario": 600.0,
+                    "linea": 1
+                }
+            ]
+        }
+    }
+}
